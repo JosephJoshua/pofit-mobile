@@ -1,11 +1,7 @@
-import { Text, View } from 'react-native';
+import { Box } from 'native-base';
 
 const HomePage = () => {
-  return (
-    <View style={{ flex: 1 }}>
-      <Text>test</Text>
-    </View>
-  );
+  return <Box flex={1} backgroundColor="secondary"></Box>;
 };
 
 export default HomePage;
